@@ -40,12 +40,14 @@ body,
     line-height: 1.63;
     font-weight:400;
   }
-  a {
-    color: $meta-color;
-  }
 }
 .viewweb {
-  text-decoration: underline;
+    text-align: right;
+    color: $meta-color;
+    text-decoration: underline;
+    display: inline-block;
+    padding-top:13px;
+    padding-right:10px;
 }
 #footer .contact {
   font-weight: bold;
@@ -60,8 +62,8 @@ body,
   }
 }
 
-.block {
-  border:1px solid darken($base-background, 10%);
+.innerContent {
+  border:1px solid $base-border;
 }
 .innerContent .note {
   background:$aside-background;
@@ -98,11 +100,9 @@ small   {
 }
 
 .subheader {
-  text-align: right;
+  text-align: center;
   font-size:16px;
   line-height:18px;
-  padding-top:21px;
-  padding-right:10px;
   a, & {
     color: $meta-color;
   }
