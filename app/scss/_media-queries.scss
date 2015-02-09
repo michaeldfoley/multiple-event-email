@@ -3,7 +3,7 @@
 MOBILE TARGETING
 ****************************************************
 ***************************************************/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 599px) {
   body[yahoo] {
     a {
       &[href^="tel"],
@@ -50,7 +50,6 @@ MOBILE TARGETING
     .innerContent {
       border-width:0 0 1px 0 !important;
     }
-    #header,
     #preheader,
     #footer {
       td {
