@@ -98,12 +98,6 @@ MOBILE TARGETING
       padding-left:0 !important;
       padding-bottom:15px !important;
     }
-    .subheader {
-      display: block !important;
-      padding-top:3px !important;
-      padding-bottom:25px !important;
-      padding-right:0;
-    }
     .section-header {
       padding-left:15px !important;
     }
@@ -194,6 +188,12 @@ MOBILE TARGETING
             padding-right:30px;
             font-size: $font-size-base;
         }
+    }
+    .date,
+    .meta,
+    .location {
+        display: block;
+        padding-right: 0;
     }
     .spacer,
     .spacer50,
