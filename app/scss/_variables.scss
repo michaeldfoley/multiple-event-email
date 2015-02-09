@@ -1,0 +1,31 @@
+//elements colors
+$base-background: #f9f9f9;
+$content-background: #ffffff;
+$aside-background: $base-background;
+$footer-nav-background: #5b6f7b;
+
+//text colors
+$text-color: #444444;
+$heading-color: #333333;
+$aside-color: lighten($text-color, 10%);
+$primary-color: #900028;
+$meta-color: lighten($text-color, 18%);
+$footer-nav-color: #ffffff;
+
+//btn colors
+$btn-background: $primary-color;
+$btn-color: #ffffff;
+$btn-secondary-background: $aside-background;
+$btn-secondary-color: lighten($text-color, 7%);
+
+//link colors
+$link-color: $primary-color;
+$footer-nav-link-color: $footer-nav-color;
+
+//fonts
+$base-font: 'Open Sans', Arial, sans-serif;
+$font-weight-base: 500;
+$font-size-base: 15px;
+$line-height-base: 1.6;
+$line-height-large: 1.2;
+$line-height-computed: floor($font-size-base * $line-height-base);

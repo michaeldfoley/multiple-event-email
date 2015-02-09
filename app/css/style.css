@@ -1,0 +1,1074 @@
+/* Client-specific Styles */
+/* line 3, ../scss/_base.scss */
+#outlook a {
+  padding: 0;
+}
+
+/* line 7, ../scss/_base.scss */
+body {
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 15, ../scss/_base.scss */
+.ExternalClass {
+  width: 100%;
+}
+/* line 18, ../scss/_base.scss */
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+  line-height: 100%;
+}
+
+/* line 28, ../scss/_base.scss */
+#backgroundTable {
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+  line-height: 100%;
+}
+
+/* Image Defaults */
+/* line 37, ../scss/_base.scss */
+img {
+  outline: none;
+  text-decoration: none;
+  -ms-interpolation-mode: bicubic;
+  border: none;
+}
+
+/* line 44, ../scss/_base.scss */
+.img_block {
+  display: block;
+}
+
+/* Yahoo paragraph fix
+Bring inline: Yes. */
+/* line 50, ../scss/_base.scss */
+p {
+  padding-top: 0;
+  padding-bottom: 1.2em;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+}
+/* line 56, ../scss/_base.scss */
+p:last-child {
+  padding-bottom: 0;
+}
+
+/* Hotmail header color reset
+Bring inline: Yes. */
+/* line 63, ../scss/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  color: #333333;
+  margin: 0;
+}
+/* line 67, ../scss/_base.scss */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  text-decoration: none;
+  color: #900028 !important;
+}
+
+/* line 72, ../scss/_base.scss */
+h1,
+h2,
+h3 {
+  padding-bottom: 12px;
+}
+
+/* line 77, ../scss/_base.scss */
+h4,
+h5,
+h6 {
+  padding-bottom: 12px;
+}
+
+/* line 82, ../scss/_base.scss */
+h1 {
+  font-size: 39px;
+}
+
+/* line 83, ../scss/_base.scss */
+h2 {
+  font-size: 32px;
+}
+
+/* line 84, ../scss/_base.scss */
+h3 {
+  font-size: 26px;
+}
+
+/* line 85, ../scss/_base.scss */
+h4 {
+  font-size: 19px;
+}
+
+/* line 86, ../scss/_base.scss */
+h5 {
+  font-size: 15px;
+}
+
+/* line 87, ../scss/_base.scss */
+h6 {
+  font-size: 13px;
+}
+
+/* line 88, ../scss/_base.scss */
+.aBn {
+  border: none !important;
+}
+
+/* line 91, ../scss/_base.scss */
+li {
+  padding-bottom: 7px;
+}
+
+/* Remove spacing around Outlook 07, 10 tables
+Bring inline: Yes */
+/* line 96, ../scss/_base.scss */
+table {
+  table-layout: fixed;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}
+
+/* line 101, ../scss/_base.scss */
+table, td {
+  /* Outlook 07, 10 Padding issue fix
+  Bring inline: No.*/
+  border-collapse: collapse;
+}
+
+/* Styling your links has become much simpler with the new Yahoo.  In fact, it falls in line with the main credo of styling in email and make sure to bring your styles inline.  Your link colors will be uniform across clients when brought inline.
+Bring inline: Yes. */
+/* line 109, ../scss/_base.scss */
+a {
+  text-decoration: none;
+  color: #900028;
+}
+
+/* Helper Classes */
+/* line 115, ../scss/_base.scss */
+.nowrap {
+  white-space: nowrap;
+}
+
+/* line 2, ../scss/_main.scss */
+body,
+#backgroundTable {
+  background: #f9f9f9;
+}
+
+/* line 6, ../scss/_main.scss */
+.default {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  font-size: 10px;
+  color: #727272;
+}
+
+/* line 13, ../scss/_main.scss */
+.innerContent,
+#preheader,
+#header,
+#footer {
+  margin: 0;
+  margin: 0 auto;
+  padding: 0;
+  width: 600px;
+}
+/* line 21, ../scss/_main.scss */
+.innerContent td,
+#preheader td,
+#header td,
+#footer td {
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+/* line 27, ../scss/_main.scss */
+#header,
+#preheader,
+#footer {
+  background: #f9f9f9;
+}
+/* line 31, ../scss/_main.scss */
+#header td,
+#preheader td,
+#footer td {
+  font-size: 10px;
+  color: #727272;
+}
+
+/* line 36, ../scss/_main.scss */
+#preheader,
+#footer {
+  text-align: center;
+}
+/* line 39, ../scss/_main.scss */
+#preheader td,
+#footer td {
+  line-height: 1.63;
+  font-weight: 400;
+}
+/* line 43, ../scss/_main.scss */
+#preheader a,
+#footer a {
+  color: #727272;
+}
+
+/* line 47, ../scss/_main.scss */
+.viewweb {
+  text-decoration: underline;
+}
+
+/* line 50, ../scss/_main.scss */
+#footer .contact {
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* line 55, ../scss/_main.scss */
+.innerContent {
+  background: #ffffff;
+}
+/* line 57, ../scss/_main.scss */
+.innerContent td {
+  font-size: 15px;
+  color: #444444;
+}
+
+/* line 63, ../scss/_main.scss */
+.innerContent {
+  border: 1px solid #e0e0e0;
+}
+
+/* line 66, ../scss/_main.scss */
+.innerContent .note {
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
+}
+/* line 69, ../scss/_main.scss */
+.innerContent .note, .innerContent .note td {
+  font-size: 13px;
+  line-height: 1;
+}
+
+/* line 74, ../scss/_main.scss */
+.note-title {
+  display: block;
+  color: #444444;
+  font-size: 15px;
+  line-height: 1.6;
+  padding-bottom: 10px;
+}
+
+/* Base Content Styles */
+/* line 83, ../scss/_main.scss */
+ul {
+  margin: 0;
+  padding-bottom: 17px;
+}
+
+/* line 87, ../scss/_main.scss */
+small {
+  color: #777777;
+  font-size: 85%;
+}
+
+/* line 92, ../scss/_main.scss */
+.logo {
+  display: inline;
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+/* line 100, ../scss/_main.scss */
+.subheader {
+  text-align: right;
+  font-size: 16px;
+  line-height: 18px;
+  padding-top: 21px;
+  padding-right: 10px;
+}
+/* line 106, ../scss/_main.scss */
+.subheader a, .subheader {
+  color: #727272;
+}
+
+/* line 110, ../scss/_main.scss */
+.title, .title-lg, .title-sm {
+  color: #900028;
+  font-weight: 200;
+  padding-bottom: 7px;
+}
+/* line 115, ../scss/_main.scss */
+.title, .title a, .title-lg, .title-lg a, .title-sm, .title-sm a {
+  display: block;
+}
+
+/* line 119, ../scss/_main.scss */
+.title {
+  font-size: 18px;
+  padding-top: 7px;
+}
+
+/* line 123, ../scss/_main.scss */
+.title-lg {
+  font-size: 25px;
+  line-height: 1.2;
+  padding-top: 10px;
+}
+
+/* line 129, ../scss/_main.scss */
+.title-sm {
+  font-size: 15px;
+  padding-top: 7px;
+}
+
+/* line 133, ../scss/_main.scss */
+.subtitle {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #6a6a6a;
+  padding-top: 0;
+  padding-bottom: 8px;
+}
+
+/* line 142, ../scss/_main.scss */
+.date,
+.meta {
+  font-size: 14px;
+  display: block;
+  padding-bottom: 0;
+}
+/* line 147, ../scss/_main.scss */
+.date + .title,
+.meta + .title {
+  padding-top: 3px;
+  padding-bottom: 15px;
+}
+
+/* line 152, ../scss/_main.scss */
+.date {
+  font-weight: bold;
+}
+
+/* line 155, ../scss/_main.scss */
+.lead {
+  font-size: 23px;
+}
+
+/* line 158, ../scss/_main.scss */
+.location {
+  font-size: 18px;
+  padding-bottom: 0;
+  padding-bottom: 36px;
+}
+
+/* line 163, ../scss/_main.scss */
+.more {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+/* line 169, ../scss/_main.scss */
+.page-header {
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  border-bottom: 1px solid #999999;
+}
+
+/* line 176, ../scss/_main.scss */
+.textlink {
+  color: #444444;
+}
+
+/* line 179, ../scss/_main.scss */
+.section-header {
+  background-color: #5b6f7b;
+  color: #ffffff;
+  display: inline;
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 25px;
+  font-size: 14px;
+}
+/* line 189, ../scss/_main.scss */
+.section-header a {
+  color: #ffffff;
+}
+
+/* line 193, ../scss/_main.scss */
+.caption {
+  color: #5e5e5e;
+  display: inline-block;
+  font-size: 12px;
+}
+
+/* line 198, ../scss/_main.scss */
+.caption-img {
+  display: block;
+  padding-bottom: 5px;
+}
+
+/* line 203, ../scss/_main.scss */
+.color-block, .color-block a, .color-block .section-header, .color-block .textlink, .color-block .page-header, .color-block .title, .color-block .title-lg, .color-block .title-sm, .color-block .subtitle, .color-block td {
+  color: #ffffff;
+}
+/* line 206, ../scss/_main.scss */
+.color-block .date,
+.color-block .meta {
+  color: #f2f2ef;
+}
+/* line 210, ../scss/_main.scss */
+.color-block a {
+  display: block;
+}
+/* line 213, ../scss/_main.scss */
+.color-block .btn {
+  display: inline-block;
+}
+
+/* line 221, ../scss/_main.scss */
+.column66 td,
+.column50 td,
+.column33 td {
+  padding-bottom: 50px;
+}
+
+/* line 225, ../scss/_main.scss */
+.row-clear {
+  clear: both;
+}
+
+/* line 228, ../scss/_main.scss */
+.column-headlines {
+  width: 379px;
+}
+
+/* line 231, ../scss/_main.scss */
+.column66 {
+  width: 349px;
+}
+
+/* line 234, ../scss/_main.scss */
+.column50 {
+  width: 250px;
+}
+
+/* line 237, ../scss/_main.scss */
+.column33 {
+  width: 160px;
+}
+
+/* line 240, ../scss/_main.scss */
+.column-sidebar {
+  width: 189px;
+}
+
+/* line 243, ../scss/_main.scss */
+.spacer50 {
+  width: 38px;
+}
+
+/* line 246, ../scss/_main.scss */
+.spacer33 {
+  width: 29px;
+}
+
+/* line 249, ../scss/_main.scss */
+.spacer30 {
+  width: 30px;
+}
+
+/* line 253, ../scss/_main.scss */
+.padless.column66 {
+  width: 389px;
+}
+/* line 256, ../scss/_main.scss */
+.padless.column50 {
+  width: 280px;
+}
+/* line 259, ../scss/_main.scss */
+.padless.column33 {
+  width: 180px;
+}
+
+/* line 264, ../scss/_main.scss */
+.spaceless.column66 {
+  width: 359px;
+}
+/* line 267, ../scss/_main.scss */
+.spaceless.column60 {
+  width: 322px;
+}
+/* line 270, ../scss/_main.scss */
+.spaceless.column50 {
+  width: 269px;
+}
+/* line 273, ../scss/_main.scss */
+.spaceless.column40 {
+  width: 216px;
+}
+/* line 276, ../scss/_main.scss */
+.spaceless.column33 {
+  width: 179px;
+}
+
+/* line 282, ../scss/_main.scss */
+.spaceless.padless.column66 {
+  width: 399px;
+}
+/* line 285, ../scss/_main.scss */
+.spaceless.padless.column60 {
+  width: 358px;
+}
+/* line 288, ../scss/_main.scss */
+.spaceless.padless.column50 {
+  width: 299px;
+}
+/* line 291, ../scss/_main.scss */
+.spaceless.padless.column40 {
+  width: 240px;
+}
+/* line 294, ../scss/_main.scss */
+.spaceless.padless.column33 {
+  width: 199px;
+}
+
+/* line 300, ../scss/_main.scss */
+.sidebar-header {
+  font-weight: bold;
+  padding-top: 4px;
+  padding-bottom: 20px;
+}
+/* line 304, ../scss/_main.scss */
+.sidebar-header a {
+  color: #444444;
+}
+
+/* line 308, ../scss/_main.scss */
+.sidebar-items {
+  padding-bottom: 20px;
+}
+
+/* line 311, ../scss/_main.scss */
+.sidebar-item,
+.sidebar-more {
+  display: block;
+  padding-bottom: 30px;
+  font-size: 13px;
+}
+/* line 316, ../scss/_main.scss */
+.sidebar-item a,
+.sidebar-more a {
+  color: #444444;
+}
+/* line 319, ../scss/_main.scss */
+.sidebar-item .title,
+.sidebar-item .title-sm,
+.sidebar-more .title,
+.sidebar-more .title-sm {
+  color: #900028;
+}
+/* line 323, ../scss/_main.scss */
+.sidebar-item ul,
+.sidebar-more ul {
+  padding-left: 15px;
+  margin: 0;
+}
+/* line 328, ../scss/_main.scss */
+.sidebar-item li:last-child,
+.sidebar-more li:last-child {
+  padding-bottom: 0;
+}
+
+/* line 334, ../scss/_main.scss */
+.well {
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 342, ../scss/_main.scss */
+.well-btn {
+  display: block;
+  width: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 348, ../scss/_main.scss */
+.side-column {
+  color: #5e5e5e;
+  font-size: 13px;
+}
+
+/* line 352, ../scss/_main.scss */
+.side-title {
+  color: #333333;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 7px;
+}
+
+/* line 358, ../scss/_main.scss */
+.more-news,
+.events {
+  padding-left: 30px;
+  padding-bottom: 25px;
+  margin: 0;
+}
+/* line 363, ../scss/_main.scss */
+.more-news span,
+.events span {
+  color: #444444;
+}
+
+/* line 367, ../scss/_main.scss */
+.news-item,
+.event-item,
+.more-news li,
+.events li {
+  list-style: none;
+  padding-bottom: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 377, ../scss/_main.scss */
+.news-item:last-child,
+.event-item:last-child,
+.more-news li:last-child,
+.events li:last-child {
+  padding-bottom: 0;
+}
+
+/* line 382, ../scss/_main.scss */
+.ad-space {
+  background-color: #e7e7e7;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #444444;
+  text-align: center;
+}
+/* line 389, ../scss/_main.scss */
+.ad-space a {
+  color: #444444;
+  display: block;
+}
+
+/* line 394, ../scss/_main.scss */
+.highlight,
+a.highlight {
+  color: #900028;
+  font-weight: bold;
+  display: block;
+  padding-top: 5px;
+}
+
+/* line 401, ../scss/_main.scss */
+.sponsor {
+  font-size: 13px;
+  color: #5e5e5e;
+  font-style: italic;
+}
+
+/* line 406, ../scss/_main.scss */
+.break {
+  border-top: 4px solid #333;
+}
+
+/* line 410, ../scss/_main.scss */
+.innerContent .footer-nav {
+  width: 100%;
+  background-color: #5b6f7b;
+  border-color: #5b6f7b;
+  color: #ffffff;
+  border: 0;
+}
+/* line 416, ../scss/_main.scss */
+.innerContent .footer-nav td {
+  font-size: 13px;
+  text-align: center;
+}
+/* line 420, ../scss/_main.scss */
+.innerContent .footer-nav a {
+  color: #ffffff;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 429, ../scss/_main.scss */
+.label {
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  display: inline-block;
+}
+/* line 435, ../scss/_main.scss */
+.label + .title {
+  padding-top: 0;
+}
+
+/* line 439, ../scss/_main.scss */
+.register {
+  padding-top: 10px;
+}
+
+/* line 442, ../scss/_main.scss */
+.btn {
+  display: inline-block;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #900028;
+  color: #ffffff;
+  border-radius: 3px;
+  border: 1px solid #5d001a;
+}
+
+/* line 454, ../scss/_main.scss */
+.btn-lg {
+  font-size: 18px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+/* line 461, ../scss/_main.scss */
+.btn-sm {
+  font-size: 13px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* line 469, ../scss/_main.scss */
+.btn-secondary,
+.color-block .btn {
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  color: #565656;
+}
+
+/* line 1, ../scss/_custom.scss */
+.more-news,
+.events {
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+/* line 5, ../scss/_custom.scss */
+.more-news .date,
+.events .date {
+  font-size: 12px;
+}
+/* line 8, ../scss/_custom.scss */
+.more-news .more,
+.events .more {
+  padding: 0;
+  font-size: 14px;
+}
+
+/* line 13, ../scss/_custom.scss */
+.meta {
+  padding-bottom: 10px;
+}
+
+/* line 16, ../scss/_custom.scss */
+.title-lg {
+  font-size: 20px;
+  line-height: 1.2;
+  padding-top: 0px;
+}
+
+/* line 21, ../scss/_custom.scss */
+.date,
+.meta {
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+/* line 26, ../scss/_custom.scss */
+.description {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  font-size: 15px;
+  color: #444444;
+}
+
+/* line 34, ../scss/_custom.scss */
+.category-header {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 39, ../scss/_custom.scss */
+.category-header small {
+  font-size: 15px;
+}
+/* line 42, ../scss/_custom.scss */
+.category-header a {
+  color: #6a6a6a;
+}
+/* line 45, ../scss/_custom.scss */
+.category-header a small {
+  color: #900028;
+}
+
+/***************************************************
+****************************************************
+MOBILE TARGETING
+****************************************************
+***************************************************/
+@media only screen and (max-device-width: 480px) {
+  /* Part one of controlling phone number linking for mobile. */
+  /* line 10, ../scss/_media-queries.scss */
+  body[yahoo] a[href^="tel"], body[yahoo] a[href^="sms"] {
+    text-decoration: none !important;
+    color: inherit !important;
+    cursor: default !important;
+  }
+  /* line 17, ../scss/_media-queries.scss */
+  body[yahoo] .date a,
+  body[yahoo] .mobile-text a {
+    text-decoration: none !important;
+    color: inherit !important;
+    cursor: default !important;
+  }
+  /* line 25, ../scss/_media-queries.scss */
+  body[yahoo] .mobile-link a[href^="tel"], body[yahoo] .mobile-link a[href^="sms"] {
+    text-decoration: none !important;
+    color: #900028 !important;
+    pointer-events: auto !important;
+    cursor: default !important;
+  }
+  /* line 33, ../scss/_media-queries.scss */
+  body[yahoo] #footer td a {
+    color: #848484 !important;
+    text-decoration: none !important;
+  }
+  /* line 37, ../scss/_media-queries.scss */
+  body[yahoo] img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  /* line 41, ../scss/_media-queries.scss */
+  body[yahoo] table {
+    height: auto;
+  }
+  /* line 44, ../scss/_media-queries.scss */
+  body[yahoo] #header,
+  body[yahoo] #preheader,
+  body[yahoo] #footer,
+  body[yahoo] .innerContent,
+  body[yahoo] .innerContent table {
+    width: 100% !important;
+  }
+  /* line 51, ../scss/_media-queries.scss */
+  body[yahoo] .innerContent {
+    border-width: 0 0 1px 0 !important;
+  }
+  /* line 57, ../scss/_media-queries.scss */
+  body[yahoo] #header td,
+  body[yahoo] #preheader td,
+  body[yahoo] #footer td {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /* line 63, ../scss/_media-queries.scss */
+  body[yahoo] .column33 img {
+    float: left !important;
+    max-width: 120px !important;
+    height: auto !important;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+  /* line 70, ../scss/_media-queries.scss */
+  body[yahoo] .column33 .title {
+    padding-top: 0 !important;
+  }
+  /* line 74, ../scss/_media-queries.scss */
+  body[yahoo] .spacer,
+  body[yahoo] .spacer50,
+  body[yahoo] .spacer33 {
+    display: none !important;
+  }
+  /* line 79, ../scss/_media-queries.scss */
+  body[yahoo] td[width="30"],
+  body[yahoo] .spacer30 {
+    width: 15px !important;
+  }
+  /* line 83, ../scss/_media-queries.scss */
+  body[yahoo] .row-clear {
+    height: 0 !important;
+  }
+  /* line 86, ../scss/_media-queries.scss */
+  body[yahoo] .ads .row-clear {
+    height: 50px !important;
+  }
+  /* line 89, ../scss/_media-queries.scss */
+  body[yahoo] .logo {
+    padding-left: 0 !important;
+    padding-bottom: 15px !important;
+  }
+  /* line 93, ../scss/_media-queries.scss */
+  body[yahoo] .subheader {
+    display: block !important;
+    padding-top: 3px !important;
+    padding-bottom: 25px !important;
+    padding-right: 0;
+  }
+  /* line 99, ../scss/_media-queries.scss */
+  body[yahoo] .section-header {
+    padding-left: 15px !important;
+  }
+  /* line 102, ../scss/_media-queries.scss */
+  body[yahoo] .well {
+    border-left: none;
+    border-right: none;
+    margin-bottom: 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  /* line 109, ../scss/_media-queries.scss */
+  body[yahoo] .title {
+    font-weight: 19px;
+  }
+  /* line 112, ../scss/_media-queries.scss */
+  body[yahoo] .more {
+    font-size: 16px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  /* line 117, ../scss/_media-queries.scss */
+  body[yahoo] .more-news,
+  body[yahoo] .events {
+    padding-left: 15px !important;
+  }
+  /* line 121, ../scss/_media-queries.scss */
+  body[yahoo] .sidebar-items {
+    padding-bottom: 25px !important;
+  }
+  /* line 124, ../scss/_media-queries.scss */
+  body[yahoo] .sidebar-item,
+  body[yahoo] .sidebar-header,
+  body[yahoo] .sidebar-more {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 0;
+  }
+  /* line 134, ../scss/_media-queries.scss */
+  body[yahoo] .sidebar-item {
+    float: left;
+    max-width: 50% !important;
+    vertical-align: top;
+  }
+  /* line 139, ../scss/_media-queries.scss */
+  body[yahoo] .sidebar-item:nth-of-type(2n+1),
+  body[yahoo] .sidebar-header,
+  body[yahoo] .sidebar-more {
+    clear: both;
+  }
+  /* line 147, ../scss/_media-queries.scss */
+  body[yahoo] .footer-nav tbody,
+  body[yahoo] .footer-nav tr,
+  body[yahoo] .footer-nav td,
+  body[yahoo] .column-sidebar tbody,
+  body[yahoo] .column-sidebar tr,
+  body[yahoo] .column-sidebar td,
+  body[yahoo] .mobile-full tbody,
+  body[yahoo] .mobile-full tr,
+  body[yahoo] .mobile-full td {
+    display: block !important;
+    width: 100% !important;
+  }
+}
+@media only screen and (min-device-width: 358px) {
+  /* line 158, ../scss/_media-queries.scss */
+  .column60 img, .column66 img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* More Specific Targeting */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* You guessed it, ipad (tablets, smaller screens, etc) */
+  /* line 169, ../scss/_media-queries.scss */
+  body[yahoo] {
+    /* repeating for the ipad */
+  }
+  /* line 172, ../scss/_media-queries.scss */
+  body[yahoo] a[href^="tel"], body[yahoo] a[href^="sms"] {
+    text-decoration: none !important;
+    color: inherit !important;
+    cursor: default !important;
+  }
+  /* line 179, ../scss/_media-queries.scss */
+  body[yahoo] .mobile-text a {
+    text-decoration: none !important;
+    color: inherit !important;
+    cursor: default !important;
+  }
+  /* line 186, ../scss/_media-queries.scss */
+  body[yahoo] .mobile-link a[href^="tel"], body[yahoo] .mobile-link a[href^="sms"] {
+    text-decoration: none !important;
+    color: #900028 !important;
+    pointer-events: auto !important;
+    cursor: default !important;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  /* Put your iPhone 4g styles in here */
+}
+/* Android targeting */
+@media only screen and (-webkit-device-pixel-ratio: 0.75) {
+  /* Put CSS for low density (ldpi) Android layouts in here */
+}
+@media only screen and (-webkit-device-pixel-ratio: 1) {
+  /* Put CSS for medium density (mdpi) Android layouts in here */
+}
+@media only screen and (-webkit-device-pixel-ratio: 1.5) {
+  /* Put CSS for high density (hdpi) Android layouts in here */
+}
+/* end Android targeting */
