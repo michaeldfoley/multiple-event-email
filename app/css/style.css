@@ -810,48 +810,54 @@ a.highlight {
   color: #565656;
 }
 
+/* line 2, ../scss/_custom.scss */
+.moreEvents img {
+  display: block;
+  padding-top: 5px;
+  width: 160px;
+}
+
 /***************************************************
 ****************************************************
 MOBILE TARGETING
 ****************************************************
 ***************************************************/
-@media only screen and (max-width: 480px) {
-  /* Part one of controlling phone number linking for mobile. */
-  /* line 10, ../scss/_media-queries.scss */
+@media only screen and (max-width: 600px) {
+  /* line 9, ../scss/_media-queries.scss */
   body[yahoo] a[href^="tel"], body[yahoo] a[href^="sms"] {
     text-decoration: none !important;
     color: inherit !important;
     cursor: default !important;
   }
-  /* line 17, ../scss/_media-queries.scss */
+  /* line 16, ../scss/_media-queries.scss */
   body[yahoo] .date a,
   body[yahoo] .mobile-text a {
     text-decoration: none !important;
     color: inherit !important;
     cursor: default !important;
   }
-  /* line 25, ../scss/_media-queries.scss */
+  /* line 24, ../scss/_media-queries.scss */
   body[yahoo] .mobile-link a[href^="tel"], body[yahoo] .mobile-link a[href^="sms"] {
     text-decoration: none !important;
     color: #900028 !important;
     pointer-events: auto !important;
     cursor: default !important;
   }
-  /* line 33, ../scss/_media-queries.scss */
+  /* line 32, ../scss/_media-queries.scss */
   body[yahoo] #footer td a {
     color: #848484 !important;
     text-decoration: none !important;
   }
-  /* line 37, ../scss/_media-queries.scss */
+  /* line 36, ../scss/_media-queries.scss */
   body[yahoo] img {
     max-width: 100% !important;
     height: auto !important;
   }
-  /* line 41, ../scss/_media-queries.scss */
+  /* line 40, ../scss/_media-queries.scss */
   body[yahoo] table {
     height: auto;
   }
-  /* line 44, ../scss/_media-queries.scss */
+  /* line 43, ../scss/_media-queries.scss */
   body[yahoo] #header,
   body[yahoo] #preheader,
   body[yahoo] #footer,
@@ -859,65 +865,81 @@ MOBILE TARGETING
   body[yahoo] .innerContent table {
     width: 100% !important;
   }
-  /* line 51, ../scss/_media-queries.scss */
+  /* line 50, ../scss/_media-queries.scss */
   body[yahoo] .innerContent {
     border-width: 0 0 1px 0 !important;
   }
-  /* line 57, ../scss/_media-queries.scss */
+  /* line 56, ../scss/_media-queries.scss */
   body[yahoo] #header td,
   body[yahoo] #preheader td,
   body[yahoo] #footer td {
     padding-left: 15px;
     padding-right: 15px;
   }
-  /* line 63, ../scss/_media-queries.scss */
-  body[yahoo] .column33 img {
+  /* line 61, ../scss/_media-queries.scss */
+  body[yahoo] .column33 {
+    width: 30%;
+  }
+  /* line 64, ../scss/_media-queries.scss */
+  body[yahoo] .column50 {
+    width: 33%;
+  }
+  /* line 67, ../scss/_media-queries.scss */
+  body[yahoo] .column66 {
+    width: 63%;
+  }
+  /* line 70, ../scss/_media-queries.scss */
+  body[yahoo] .spacer33 {
+    width: 6%;
+  }
+  /* line 76, ../scss/_media-queries.scss */
+  body[yahoo] .column33 img,
+  body[yahoo] .column50 img,
+  body[yahoo] .column66 img {
     float: left !important;
-    max-width: 120px !important;
+    width: 30%;
+    min-width: 120px !important;
     height: auto !important;
     padding-right: 20px;
     padding-bottom: 10px;
   }
-  /* line 70, ../scss/_media-queries.scss */
-  body[yahoo] .column33 .title {
+  /* line 84, ../scss/_media-queries.scss */
+  body[yahoo] .column33 .title,
+  body[yahoo] .column50 .title,
+  body[yahoo] .column66 .title {
     padding-top: 0 !important;
   }
-  /* line 74, ../scss/_media-queries.scss */
-  body[yahoo] .spacer,
-  body[yahoo] .spacer50,
-  body[yahoo] .spacer33 {
-    display: none !important;
+  /* line 87, ../scss/_media-queries.scss */
+  body[yahoo] .column33 .more,
+  body[yahoo] .column50 .more,
+  body[yahoo] .column66 .more {
+    display: inline-block;
   }
-  /* line 79, ../scss/_media-queries.scss */
-  body[yahoo] td[width="30"],
-  body[yahoo] .spacer30 {
-    width: 15px !important;
-  }
-  /* line 83, ../scss/_media-queries.scss */
+  /* line 91, ../scss/_media-queries.scss */
   body[yahoo] .row-clear {
     height: 0 !important;
   }
-  /* line 86, ../scss/_media-queries.scss */
+  /* line 94, ../scss/_media-queries.scss */
   body[yahoo] .ads .row-clear {
     height: 50px !important;
   }
-  /* line 89, ../scss/_media-queries.scss */
+  /* line 97, ../scss/_media-queries.scss */
   body[yahoo] .logo {
     padding-left: 0 !important;
     padding-bottom: 15px !important;
   }
-  /* line 93, ../scss/_media-queries.scss */
+  /* line 101, ../scss/_media-queries.scss */
   body[yahoo] .subheader {
     display: block !important;
     padding-top: 3px !important;
     padding-bottom: 25px !important;
     padding-right: 0;
   }
-  /* line 99, ../scss/_media-queries.scss */
+  /* line 107, ../scss/_media-queries.scss */
   body[yahoo] .section-header {
     padding-left: 15px !important;
   }
-  /* line 102, ../scss/_media-queries.scss */
+  /* line 110, ../scss/_media-queries.scss */
   body[yahoo] .well {
     border-left: none;
     border-right: none;
@@ -925,26 +947,26 @@ MOBILE TARGETING
     margin-left: -15px;
     margin-right: -15px;
   }
-  /* line 109, ../scss/_media-queries.scss */
+  /* line 117, ../scss/_media-queries.scss */
   body[yahoo] .title {
     font-weight: 19px;
   }
-  /* line 112, ../scss/_media-queries.scss */
+  /* line 120, ../scss/_media-queries.scss */
   body[yahoo] .more {
-    font-size: 16px !important;
+    font-size: 15px;
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
-  /* line 117, ../scss/_media-queries.scss */
+  /* line 125, ../scss/_media-queries.scss */
   body[yahoo] .more-news,
   body[yahoo] .events {
     padding-left: 15px !important;
   }
-  /* line 121, ../scss/_media-queries.scss */
+  /* line 129, ../scss/_media-queries.scss */
   body[yahoo] .sidebar-items {
     padding-bottom: 25px !important;
   }
-  /* line 124, ../scss/_media-queries.scss */
+  /* line 132, ../scss/_media-queries.scss */
   body[yahoo] .sidebar-item,
   body[yahoo] .sidebar-header,
   body[yahoo] .sidebar-more {
@@ -955,19 +977,25 @@ MOBILE TARGETING
     padding-bottom: 15px;
     padding-top: 0;
   }
-  /* line 134, ../scss/_media-queries.scss */
+  /* line 142, ../scss/_media-queries.scss */
   body[yahoo] .sidebar-item {
     float: left;
     max-width: 50% !important;
     vertical-align: top;
   }
-  /* line 139, ../scss/_media-queries.scss */
-  body[yahoo] .sidebar-item:nth-of-type(2n+1),
+  /* line 147, ../scss/_media-queries.scss */
+  body[yahoo] .sidebar-item:nth-of-type(3n+1),
   body[yahoo] .sidebar-header,
   body[yahoo] .sidebar-more {
     clear: both;
   }
-  /* line 147, ../scss/_media-queries.scss */
+  /* line 155, ../scss/_media-queries.scss */
+  body[yahoo] .footer-nav colgroup,
+  body[yahoo] .column-sidebar colgroup,
+  body[yahoo] .mobile-full colgroup {
+    display: none;
+  }
+  /* line 158, ../scss/_media-queries.scss */
   body[yahoo] .footer-nav tbody,
   body[yahoo] .footer-nav tr,
   body[yahoo] .footer-nav td,
@@ -981,51 +1009,63 @@ MOBILE TARGETING
     width: 100% !important;
   }
 }
-@media only screen and (min-device-width: 358px) {
-  /* line 158, ../scss/_media-queries.scss */
-  .column60 img, .column66 img {
+@media only screen and (max-width: 480px) {
+  /* line 170, ../scss/_media-queries.scss */
+  body[yahoo] .innerContent colgroup {
+    display: none;
+  }
+  /* line 173, ../scss/_media-queries.scss */
+  body[yahoo] .innerContent tbody,
+  body[yahoo] .innerContent tr,
+  body[yahoo] .innerContent td {
+    display: block !important;
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+  /* line 180, ../scss/_media-queries.scss */
+  body[yahoo] .innerContent td {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /* line 186, ../scss/_media-queries.scss */
+  body[yahoo] .moreEvents img {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  /* line 190, ../scss/_media-queries.scss */
+  body[yahoo] .moreEvents .btn-sm {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+  }
+  /* line 198, ../scss/_media-queries.scss */
+  body[yahoo] .spacer,
+  body[yahoo] .spacer50,
+  body[yahoo] .spacer33 {
+    display: none !important;
+  }
+  /* line 203, ../scss/_media-queries.scss */
+  body[yahoo] td[width="30"],
+  body[yahoo] .spacer30 {
+    width: 15px !important;
+  }
+}
+@media only screen and (max-width: 375px) {
+  /* line 213, ../scss/_media-queries.scss */
+  body[yahoo] .column33 img,
+  body[yahoo] .column50 img {
+    float: none !important;
+    width: auto;
+    max-width: 100%;
+    min-width: 0 !important;
+  }
+}
+@media only screen and (min-width: 358px) {
+  /* line 225, ../scss/_media-queries.scss */
+  body[yahoo] .column60 img, body[yahoo] .column66 img {
     margin-left: auto;
     margin-right: auto;
   }
 }
-/* More Specific Targeting */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  /* You guessed it, ipad (tablets, smaller screens, etc) */
-  /* line 169, ../scss/_media-queries.scss */
-  body[yahoo] {
-    /* repeating for the ipad */
-  }
-  /* line 172, ../scss/_media-queries.scss */
-  body[yahoo] a[href^="tel"], body[yahoo] a[href^="sms"] {
-    text-decoration: none !important;
-    color: inherit !important;
-    cursor: default !important;
-  }
-  /* line 179, ../scss/_media-queries.scss */
-  body[yahoo] .mobile-text a {
-    text-decoration: none !important;
-    color: inherit !important;
-    cursor: default !important;
-  }
-  /* line 186, ../scss/_media-queries.scss */
-  body[yahoo] .mobile-link a[href^="tel"], body[yahoo] .mobile-link a[href^="sms"] {
-    text-decoration: none !important;
-    color: #900028 !important;
-    pointer-events: auto !important;
-    cursor: default !important;
-  }
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-  /* Put your iPhone 4g styles in here */
-}
-/* Android targeting */
-@media only screen and (-webkit-device-pixel-ratio: 0.75) {
-  /* Put CSS for low density (ldpi) Android layouts in here */
-}
-@media only screen and (-webkit-device-pixel-ratio: 1) {
-  /* Put CSS for medium density (mdpi) Android layouts in here */
-}
-@media only screen and (-webkit-device-pixel-ratio: 1.5) {
-  /* Put CSS for high density (hdpi) Android layouts in here */
-}
-/* end Android targeting */
