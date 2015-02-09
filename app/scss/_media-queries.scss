@@ -3,7 +3,7 @@
 MOBILE TARGETING
 ****************************************************
 ***************************************************/
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   /* Part one of controlling phone number linking for mobile. */
   body[yahoo] {
     a {
