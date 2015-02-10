@@ -292,7 +292,7 @@ small {
   display: inline;
   display: inline-block;
   padding-top: 5px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 /* line 100, ../scss/_main.scss */
@@ -897,14 +897,17 @@ MOBILE TARGETING
   }
   /* line 87, ../scss/_media-queries.scss */
   body[yahoo] .logo {
-    padding-left: 0 !important;
-    padding-bottom: 15px !important;
+    padding-left: 15px !important;
   }
-  /* line 91, ../scss/_media-queries.scss */
+  /* line 90, ../scss/_media-queries.scss */
+  body[yahoo] .viewweb {
+    padding-right: 15px !important;
+  }
+  /* line 93, ../scss/_media-queries.scss */
   body[yahoo] .section-header {
     padding-left: 15px !important;
   }
-  /* line 94, ../scss/_media-queries.scss */
+  /* line 96, ../scss/_media-queries.scss */
   body[yahoo] .well {
     border-left: none;
     border-right: none;
@@ -912,26 +915,26 @@ MOBILE TARGETING
     margin-left: -15px;
     margin-right: -15px;
   }
-  /* line 101, ../scss/_media-queries.scss */
+  /* line 103, ../scss/_media-queries.scss */
   body[yahoo] .title {
     font-weight: 19px;
   }
-  /* line 104, ../scss/_media-queries.scss */
+  /* line 106, ../scss/_media-queries.scss */
   body[yahoo] .more {
     font-size: 15px;
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
-  /* line 109, ../scss/_media-queries.scss */
+  /* line 111, ../scss/_media-queries.scss */
   body[yahoo] .more-news,
   body[yahoo] .events {
     padding-left: 15px !important;
   }
-  /* line 113, ../scss/_media-queries.scss */
+  /* line 115, ../scss/_media-queries.scss */
   body[yahoo] .sidebar-items {
     padding-bottom: 25px !important;
   }
-  /* line 116, ../scss/_media-queries.scss */
+  /* line 118, ../scss/_media-queries.scss */
   body[yahoo] .sidebar-item,
   body[yahoo] .sidebar-header,
   body[yahoo] .sidebar-more {
@@ -942,25 +945,25 @@ MOBILE TARGETING
     padding-bottom: 15px;
     padding-top: 0;
   }
-  /* line 126, ../scss/_media-queries.scss */
+  /* line 128, ../scss/_media-queries.scss */
   body[yahoo] .sidebar-item {
     float: left;
     max-width: 50% !important;
     vertical-align: top;
   }
-  /* line 131, ../scss/_media-queries.scss */
+  /* line 133, ../scss/_media-queries.scss */
   body[yahoo] .sidebar-item:nth-of-type(3n+1),
   body[yahoo] .sidebar-header,
   body[yahoo] .sidebar-more {
     clear: both;
   }
-  /* line 139, ../scss/_media-queries.scss */
+  /* line 141, ../scss/_media-queries.scss */
   body[yahoo] .footer-nav colgroup,
   body[yahoo] .column-sidebar colgroup,
   body[yahoo] .mobile-full colgroup {
     display: none;
   }
-  /* line 142, ../scss/_media-queries.scss */
+  /* line 144, ../scss/_media-queries.scss */
   body[yahoo] .footer-nav tbody,
   body[yahoo] .footer-nav tr,
   body[yahoo] .footer-nav td,
@@ -975,11 +978,11 @@ MOBILE TARGETING
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 154, ../scss/_media-queries.scss */
+  /* line 156, ../scss/_media-queries.scss */
   body[yahoo] .innerContent colgroup {
     display: none;
   }
-  /* line 157, ../scss/_media-queries.scss */
+  /* line 159, ../scss/_media-queries.scss */
   body[yahoo] .innerContent tbody,
   body[yahoo] .innerContent tr,
   body[yahoo] .innerContent td {
@@ -987,21 +990,21 @@ MOBILE TARGETING
     width: 100% !important;
     box-sizing: border-box;
   }
-  /* line 164, ../scss/_media-queries.scss */
+  /* line 166, ../scss/_media-queries.scss */
   body[yahoo] .innerContent td {
     padding-left: 15px;
     padding-right: 15px;
   }
-  /* line 169, ../scss/_media-queries.scss */
+  /* line 171, ../scss/_media-queries.scss */
   body[yahoo] .moreEvents {
     margin-bottom: 60px !important;
   }
-  /* line 171, ../scss/_media-queries.scss */
+  /* line 173, ../scss/_media-queries.scss */
   body[yahoo] .moreEvents img {
     width: 100%;
     padding-bottom: 15px;
   }
-  /* line 175, ../scss/_media-queries.scss */
+  /* line 177, ../scss/_media-queries.scss */
   body[yahoo] .moreEvents .btn-sm {
     padding-top: 7px;
     padding-bottom: 7px;
@@ -1009,31 +1012,31 @@ MOBILE TARGETING
     padding-right: 30px;
     font-size: 15px;
   }
-  /* line 183, ../scss/_media-queries.scss */
+  /* line 185, ../scss/_media-queries.scss */
   body[yahoo] .date,
   body[yahoo] .meta,
   body[yahoo] .location {
     display: block;
     padding-right: 0;
   }
-  /* line 189, ../scss/_media-queries.scss */
+  /* line 191, ../scss/_media-queries.scss */
   body[yahoo] .spacer,
   body[yahoo] .spacer50,
   body[yahoo] .spacer33 {
     display: none !important;
   }
-  /* line 195, ../scss/_media-queries.scss */
+  /* line 197, ../scss/_media-queries.scss */
   body[yahoo] .innerContent .column33, body[yahoo] .innerContent .column50, body[yahoo] .innerContent .column66 {
     width: 100% !important;
   }
-  /* line 199, ../scss/_media-queries.scss */
+  /* line 201, ../scss/_media-queries.scss */
   body[yahoo] td[width="30"],
   body[yahoo] .spacer30 {
     width: 15px !important;
   }
 }
 @media only screen and (max-width: 375px) {
-  /* line 209, ../scss/_media-queries.scss */
+  /* line 211, ../scss/_media-queries.scss */
   body[yahoo] .column33 img,
   body[yahoo] .column50 img {
     float: none !important;
@@ -1043,7 +1046,7 @@ MOBILE TARGETING
   }
 }
 @media only screen and (min-width: 358px) {
-  /* line 221, ../scss/_media-queries.scss */
+  /* line 223, ../scss/_media-queries.scss */
   body[yahoo] .column60 img, body[yahoo] .column66 img {
     margin-left: auto;
     margin-right: auto;
