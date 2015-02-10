@@ -225,26 +225,28 @@ small   {
 .row-clear {
   clear:both;
 }
+
+.column33 {
+    width: 30%;
+}
+.column50 {
+    width: 47%;
+}
+.column66 {
+    width: 65%;
+}
+.spacer33 {
+    width: 5%;
+}
+.spacer50 {
+    width: 6%;
+}
+
 .column-headlines {
   width: 379px;
 }
-.column66 {
-  width: 349px;
-}
-.column50 {
-  width: 250px;
-}
-.column33 {
-  width: 160px;
-}
 .column-sidebar {
   width: 189px;
-}
-.spacer50 {
-  width: 38px;
-}
-.spacer33 {
-  width: 29px;
 }
 .spacer30 {
   width: 30px;
@@ -252,53 +254,6 @@ small   {
 .spacer15 {
   width: 15px;
 }
-.padless {
-  &.column66 {
-    width: 389px;
-  }
-  &.column50 {
-    width: 280px;
-  }
-  &.column33 {
-    width: 180px;
-  }
-}
-.spaceless {
-  &.column66 {
-    width: 359px;
-  }
-  &.column60 {
-    width: 322px;
-  }
-  &.column50 {
-    width: 269px;
-  }
-  &.column40 {
-    width: 216px;
-  }
-  &.column33 {
-    width: 179px;
-  }
-}
-
-.spaceless.padless {
-  &.column66 {
-    width: 399px;
-  }
-  &.column60 {
-    width: 358px;
-  }
-  &.column50 {
-    width: 299px;
-  }
-  &.column40 {
-    width: 240px;
-  }
-  &.column33 {
-    width: 199px;
-  }
-}
-
 
 .sidebar-header {
   font-weight: bold;

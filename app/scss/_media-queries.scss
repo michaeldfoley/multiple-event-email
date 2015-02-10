@@ -63,16 +63,16 @@ MOBILE TARGETING
     }
     .innerContent {
         .column33 {
-            width: 30%;
+            width: 30% !important;
         }
         .column50 {
             width: 47% !important;
         }
         .column66 {
-            width: 63%;
+            width: 65% !important;
         }
         .spacer33 {
-            width: 6%;
+            width: 5% !important;
         }
         .spacer50 {
             width: 6% !important;
@@ -83,12 +83,6 @@ MOBILE TARGETING
     }
     .ads .row-clear {
       height:50px !important;
-    }
-    .logo {
-      padding-left:15px !important;
-    }
-    .viewweb {
-        padding-right: 15px !important;
     }
     .section-header {
       padding-left:15px !important;
@@ -150,7 +144,7 @@ MOBILE TARGETING
     }
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 479px) {
   body[yahoo] {
     .innerContent {
         colgroup {
@@ -166,6 +160,11 @@ MOBILE TARGETING
         td {
             padding-left: 15px;
             padding-right: 15px;
+            
+            &[colspan="3"] {
+                padding-left: 0;
+                padding-right: 0;
+            }
         }
     }
     .moreEvents {
