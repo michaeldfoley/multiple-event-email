@@ -657,6 +657,11 @@ a.highlight {
 }
 
 /* line 368, ../scss/_main.scss */
+.footer a {
+  color: #444444;
+}
+
+/* line 372, ../scss/_main.scss */
 .innerContent .footer-nav {
   width: 100%;
   background-color: #5b6f7b;
@@ -664,12 +669,12 @@ a.highlight {
   color: #ffffff;
   border: 0;
 }
-/* line 374, ../scss/_main.scss */
+/* line 378, ../scss/_main.scss */
 .innerContent .footer-nav td {
   font-size: 13px;
   text-align: center;
 }
-/* line 378, ../scss/_main.scss */
+/* line 382, ../scss/_main.scss */
 .innerContent .footer-nav a {
   color: #ffffff;
   display: block;
@@ -679,7 +684,7 @@ a.highlight {
   padding-right: 10px;
 }
 
-/* line 387, ../scss/_main.scss */
+/* line 391, ../scss/_main.scss */
 .label {
   font-size: 12px;
   font-weight: bold;
@@ -687,17 +692,17 @@ a.highlight {
   padding-bottom: 3px;
   display: inline-block;
 }
-/* line 393, ../scss/_main.scss */
+/* line 397, ../scss/_main.scss */
 .label + .title {
   padding-top: 0;
 }
 
-/* line 397, ../scss/_main.scss */
+/* line 401, ../scss/_main.scss */
 .register {
   padding-top: 15px;
 }
 
-/* line 400, ../scss/_main.scss */
+/* line 404, ../scss/_main.scss */
 .btn {
   display: inline-block;
   text-align: center;
@@ -710,7 +715,7 @@ a.highlight {
   border: 1px solid #5d001a;
 }
 
-/* line 411, ../scss/_main.scss */
+/* line 415, ../scss/_main.scss */
 .btn-lg {
   font-size: 18px;
   padding-top: 12px;
@@ -719,7 +724,7 @@ a.highlight {
   padding-right: 40px;
 }
 
-/* line 418, ../scss/_main.scss */
+/* line 422, ../scss/_main.scss */
 .btn-sm {
   font-size: 13px;
   padding-top: 5px;
@@ -728,7 +733,7 @@ a.highlight {
   padding-right: 25px;
 }
 
-/* line 426, ../scss/_main.scss */
+/* line 430, ../scss/_main.scss */
 .btn-secondary,
 .color-block .btn {
   background: #f9f9f9;

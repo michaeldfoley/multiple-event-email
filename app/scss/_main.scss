@@ -364,7 +364,11 @@ a.highlight {
 .break {
   border-top:4px solid #333;
 }
-
+.footer {
+    a {
+        color: $text-color;
+    }
+}
 .innerContent .footer-nav {
   width: 100%;
   background-color:$footer-nav-background;
