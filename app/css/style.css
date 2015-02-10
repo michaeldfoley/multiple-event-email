@@ -165,7 +165,7 @@ a {
 /* line 2, ../scss/_main.scss */
 body,
 #backgroundTable {
-  background: #f9f9f9;
+  background: #ffffff;
 }
 
 /* line 6, ../scss/_main.scss */
@@ -201,7 +201,7 @@ body,
 #header,
 #preheader,
 #footer {
-  background: #f9f9f9;
+  background: #ffffff;
 }
 /* line 31, ../scss/_main.scss */
 #header td,
@@ -251,13 +251,13 @@ body,
 
 /* line 64, ../scss/_main.scss */
 .block {
-  border: 1px solid #e0e0e0;
+  border: 1px solid #e6e6e6;
 }
 
 /* line 67, ../scss/_main.scss */
 .innerContent .note {
-  background: #f9f9f9;
-  border: 1px solid #e0e0e0;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
 }
 /* line 70, ../scss/_main.scss */
 .innerContent .note, .innerContent .note td {
@@ -612,8 +612,8 @@ small {
 
 /* line 337, ../scss/_main.scss */
 .well {
-  background: #f9f9f9;
-  border: 1px solid #e0e0e0;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 15px;
@@ -677,7 +677,7 @@ small {
 
 /* line 385, ../scss/_main.scss */
 .ad-space {
-  background-color: #e7e7e7;
+  background-color: #ededed;
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -786,8 +786,8 @@ a.highlight {
 /* line 471, ../scss/_main.scss */
 .btn-secondary,
 .color-block .btn {
-  background: #f9f9f9;
-  border: 1px solid #e0e0e0;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
   color: #565656;
 }
 
