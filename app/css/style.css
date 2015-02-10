@@ -165,7 +165,7 @@ a {
 /* line 2, ../scss/_main.scss */
 body,
 #backgroundTable {
-  background: #ffffff;
+  background: #f9f9f9;
 }
 
 /* line 6, ../scss/_main.scss */
@@ -201,7 +201,7 @@ body,
 #header,
 #preheader,
 #footer {
-  background: #ffffff;
+  background: #f9f9f9;
 }
 /* line 31, ../scss/_main.scss */
 #header td,
@@ -251,13 +251,13 @@ body,
 
 /* line 64, ../scss/_main.scss */
 .block {
-  border: 1px solid #e6e6e6;
+  border: 1px solid #e0e0e0;
 }
 
 /* line 67, ../scss/_main.scss */
 .innerContent .note {
-  background: #ffffff;
-  border: 1px solid #e6e6e6;
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
 }
 /* line 70, ../scss/_main.scss */
 .innerContent .note, .innerContent .note td {
@@ -612,8 +612,8 @@ small {
 
 /* line 337, ../scss/_main.scss */
 .well {
-  background: #ffffff;
-  border: 1px solid #e6e6e6;
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 15px;
@@ -677,7 +677,7 @@ small {
 
 /* line 385, ../scss/_main.scss */
 .ad-space {
-  background-color: #ededed;
+  background-color: #e7e7e7;
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -786,16 +786,16 @@ a.highlight {
 /* line 471, ../scss/_main.scss */
 .btn-secondary,
 .color-block .btn {
-  background: #ffffff;
-  border: 1px solid #e6e6e6;
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
   color: #565656;
 }
 
 /* line 2, ../scss/_custom.scss */
 .moreEvents img {
   display: block;
-  padding-top: 5px;
-  width: 160px;
+  padding-bottom: 15px;
+  width: 279px;
 }
 /* line 7, ../scss/_custom.scss */
 .moreEvents .date,
@@ -857,69 +857,54 @@ MOBILE TARGETING
   body[yahoo] .innerContent {
     border-width: 0 0 1px 0 !important;
   }
-  /* line 55, ../scss/_media-queries.scss */
+  /* line 53, ../scss/_media-queries.scss */
+  body[yahoo] .innerContent .padless {
+    padding: 0 !important;
+  }
+  /* line 59, ../scss/_media-queries.scss */
   body[yahoo] #preheader td,
   body[yahoo] #footer td {
     padding-left: 15px;
     padding-right: 15px;
   }
-  /* line 60, ../scss/_media-queries.scss */
-  body[yahoo] .column33 {
+  /* line 65, ../scss/_media-queries.scss */
+  body[yahoo] .innerContent .column33 {
     width: 30%;
   }
-  /* line 63, ../scss/_media-queries.scss */
-  body[yahoo] .column50 {
-    width: 33%;
+  /* line 68, ../scss/_media-queries.scss */
+  body[yahoo] .innerContent .column50 {
+    width: 47% !important;
   }
-  /* line 66, ../scss/_media-queries.scss */
-  body[yahoo] .column66 {
+  /* line 71, ../scss/_media-queries.scss */
+  body[yahoo] .innerContent .column66 {
     width: 63%;
   }
-  /* line 69, ../scss/_media-queries.scss */
-  body[yahoo] .spacer33 {
+  /* line 74, ../scss/_media-queries.scss */
+  body[yahoo] .innerContent .spacer33 {
     width: 6%;
   }
-  /* line 75, ../scss/_media-queries.scss */
-  body[yahoo] .column33 img,
-  body[yahoo] .column50 img,
-  body[yahoo] .column66 img {
-    float: left !important;
-    width: 30%;
-    min-width: 120px !important;
-    height: auto !important;
-    padding-right: 20px;
-    padding-bottom: 10px;
+  /* line 77, ../scss/_media-queries.scss */
+  body[yahoo] .innerContent .spacer50 {
+    width: 6% !important;
   }
-  /* line 83, ../scss/_media-queries.scss */
-  body[yahoo] .column33 .title,
-  body[yahoo] .column50 .title,
-  body[yahoo] .column66 .title {
-    padding-top: 0 !important;
-  }
-  /* line 86, ../scss/_media-queries.scss */
-  body[yahoo] .column33 .more,
-  body[yahoo] .column50 .more,
-  body[yahoo] .column66 .more {
-    display: inline-block;
-  }
-  /* line 90, ../scss/_media-queries.scss */
+  /* line 81, ../scss/_media-queries.scss */
   body[yahoo] .row-clear {
     height: 0 !important;
   }
-  /* line 93, ../scss/_media-queries.scss */
+  /* line 84, ../scss/_media-queries.scss */
   body[yahoo] .ads .row-clear {
     height: 50px !important;
   }
-  /* line 96, ../scss/_media-queries.scss */
+  /* line 87, ../scss/_media-queries.scss */
   body[yahoo] .logo {
     padding-left: 0 !important;
     padding-bottom: 15px !important;
   }
-  /* line 100, ../scss/_media-queries.scss */
+  /* line 91, ../scss/_media-queries.scss */
   body[yahoo] .section-header {
     padding-left: 15px !important;
   }
-  /* line 103, ../scss/_media-queries.scss */
+  /* line 94, ../scss/_media-queries.scss */
   body[yahoo] .well {
     border-left: none;
     border-right: none;
@@ -927,26 +912,26 @@ MOBILE TARGETING
     margin-left: -15px;
     margin-right: -15px;
   }
-  /* line 110, ../scss/_media-queries.scss */
+  /* line 101, ../scss/_media-queries.scss */
   body[yahoo] .title {
     font-weight: 19px;
   }
-  /* line 113, ../scss/_media-queries.scss */
+  /* line 104, ../scss/_media-queries.scss */
   body[yahoo] .more {
     font-size: 15px;
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
-  /* line 118, ../scss/_media-queries.scss */
+  /* line 109, ../scss/_media-queries.scss */
   body[yahoo] .more-news,
   body[yahoo] .events {
     padding-left: 15px !important;
   }
-  /* line 122, ../scss/_media-queries.scss */
+  /* line 113, ../scss/_media-queries.scss */
   body[yahoo] .sidebar-items {
     padding-bottom: 25px !important;
   }
-  /* line 125, ../scss/_media-queries.scss */
+  /* line 116, ../scss/_media-queries.scss */
   body[yahoo] .sidebar-item,
   body[yahoo] .sidebar-header,
   body[yahoo] .sidebar-more {
@@ -957,25 +942,25 @@ MOBILE TARGETING
     padding-bottom: 15px;
     padding-top: 0;
   }
-  /* line 135, ../scss/_media-queries.scss */
+  /* line 126, ../scss/_media-queries.scss */
   body[yahoo] .sidebar-item {
     float: left;
     max-width: 50% !important;
     vertical-align: top;
   }
-  /* line 140, ../scss/_media-queries.scss */
+  /* line 131, ../scss/_media-queries.scss */
   body[yahoo] .sidebar-item:nth-of-type(3n+1),
   body[yahoo] .sidebar-header,
   body[yahoo] .sidebar-more {
     clear: both;
   }
-  /* line 148, ../scss/_media-queries.scss */
+  /* line 139, ../scss/_media-queries.scss */
   body[yahoo] .footer-nav colgroup,
   body[yahoo] .column-sidebar colgroup,
   body[yahoo] .mobile-full colgroup {
     display: none;
   }
-  /* line 151, ../scss/_media-queries.scss */
+  /* line 142, ../scss/_media-queries.scss */
   body[yahoo] .footer-nav tbody,
   body[yahoo] .footer-nav tr,
   body[yahoo] .footer-nav td,
@@ -990,11 +975,11 @@ MOBILE TARGETING
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 163, ../scss/_media-queries.scss */
+  /* line 154, ../scss/_media-queries.scss */
   body[yahoo] .innerContent colgroup {
     display: none;
   }
-  /* line 166, ../scss/_media-queries.scss */
+  /* line 157, ../scss/_media-queries.scss */
   body[yahoo] .innerContent tbody,
   body[yahoo] .innerContent tr,
   body[yahoo] .innerContent td {
@@ -1002,17 +987,21 @@ MOBILE TARGETING
     width: 100% !important;
     box-sizing: border-box;
   }
-  /* line 173, ../scss/_media-queries.scss */
+  /* line 164, ../scss/_media-queries.scss */
   body[yahoo] .innerContent td {
     padding-left: 15px;
     padding-right: 15px;
   }
-  /* line 179, ../scss/_media-queries.scss */
+  /* line 169, ../scss/_media-queries.scss */
+  body[yahoo] .moreEvents {
+    margin-bottom: 60px !important;
+  }
+  /* line 171, ../scss/_media-queries.scss */
   body[yahoo] .moreEvents img {
     width: 100%;
     padding-bottom: 15px;
   }
-  /* line 183, ../scss/_media-queries.scss */
+  /* line 175, ../scss/_media-queries.scss */
   body[yahoo] .moreEvents .btn-sm {
     padding-top: 7px;
     padding-bottom: 7px;
@@ -1020,27 +1009,31 @@ MOBILE TARGETING
     padding-right: 30px;
     font-size: 15px;
   }
-  /* line 191, ../scss/_media-queries.scss */
+  /* line 183, ../scss/_media-queries.scss */
   body[yahoo] .date,
   body[yahoo] .meta,
   body[yahoo] .location {
     display: block;
     padding-right: 0;
   }
-  /* line 197, ../scss/_media-queries.scss */
+  /* line 189, ../scss/_media-queries.scss */
   body[yahoo] .spacer,
   body[yahoo] .spacer50,
   body[yahoo] .spacer33 {
     display: none !important;
   }
-  /* line 202, ../scss/_media-queries.scss */
+  /* line 195, ../scss/_media-queries.scss */
+  body[yahoo] .innerContent .column33, body[yahoo] .innerContent .column50, body[yahoo] .innerContent .column66 {
+    width: 100% !important;
+  }
+  /* line 199, ../scss/_media-queries.scss */
   body[yahoo] td[width="30"],
   body[yahoo] .spacer30 {
     width: 15px !important;
   }
 }
 @media only screen and (max-width: 375px) {
-  /* line 212, ../scss/_media-queries.scss */
+  /* line 209, ../scss/_media-queries.scss */
   body[yahoo] .column33 img,
   body[yahoo] .column50 img {
     float: none !important;
@@ -1050,7 +1043,7 @@ MOBILE TARGETING
   }
 }
 @media only screen and (min-width: 358px) {
-  /* line 224, ../scss/_media-queries.scss */
+  /* line 221, ../scss/_media-queries.scss */
   body[yahoo] .column60 img, body[yahoo] .column66 img {
     margin-left: auto;
     margin-right: auto;
