@@ -1,0 +1,61 @@
+// 
+//  Reset Client-specific Styles 
+//  ---------------------------------
+
+// Body reset
+
+body {
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+#backgroundTable {
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+  line-height: 100%;
+}
+
+
+// Outlook custom styles reset
+
+.ExternalClass {
+  width: 100%;
+
+  &,
+  p,
+  span,
+  font,
+  td,
+  div {
+    line-height: 100%;
+  }
+}
+#outlook a {
+  padding: 0;
+}
+
+
+// Hotmail header color reset
+
+#{headings()} {
+  color: $heading-color;
+  a {
+    text-decoration: none;
+    color: $link-color !important;
+  }
+}
+
+
+// Remove spacing around Outlook 07, 10 tables
+
+table {
+  table-layout:fixed;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}
+table, td {
+  border-collapse: collapse;
+}

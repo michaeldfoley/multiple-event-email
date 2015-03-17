@@ -1,0 +1,35 @@
+// 
+//  Events
+//  ---------------------------------
+
+.btn {
+  display:inline-block;
+  text-align: center;
+  padding-top:7px;
+  padding-bottom:7px;
+  padding-left:30px;
+  padding-right:30px;
+  background:$btn-background;
+  color:$btn-color;
+  border:1px solid darken($btn-background, 10%);
+}
+.btn-sm {
+  font-size:floor($font-size-base * 0.9);
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:25px;
+  padding-right:25px;
+  
+}
+.btn-lg {
+  font-size:floor($font-size-base * 1.25);
+  padding-top:12px;
+  padding-bottom:12px;
+  padding-left:40px;
+  padding-right:40px;
+}
+.btn-secondary {
+  background:$btn-secondary-background;
+  border:1px solid darken($btn-secondary-background, 10%);
+  color: $btn-secondary-color;
+}

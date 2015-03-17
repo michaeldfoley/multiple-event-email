@@ -1,0 +1,22 @@
+// 
+//  Type
+//  ---------------------------------
+
+.header {
+  text-align: right;
+}
+.header-logo {
+  display: inline;
+  display: inline-block;
+  padding-top:5px;
+  padding-bottom:15px;
+}
+.header-subheader {
+  display: inline-block;
+  padding-top: 12px;
+  font-size:16px;
+  
+  a, & {
+    color: $meta-color;
+  }
+}

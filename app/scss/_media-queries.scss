@@ -1,10 +1,13 @@
-/***************************************************
-****************************************************
-MOBILE TARGETING
-****************************************************
-***************************************************/
+// 
+//  Mobile Targeting
+//  ---------------------------------
+
+
 @media only screen and (max-width: 599px) {
   body[yahoo] {
+    
+    // Link resets
+    
     a {
       &[href^="tel"],
       &[href^="sms"] {
@@ -14,12 +17,11 @@ MOBILE TARGETING
       }
     }
     .date a,
-    .mobile-text a{
+    .mobile-text a {
       text-decoration: none !important;
       color: inherit !important;
       cursor: default !important;
     }
-    
     .mobile-link a {
       &[href^="tel"],
       &[href^="sms"] {
@@ -29,26 +31,30 @@ MOBILE TARGETING
         cursor: default !important;
       }
     }
-    #footer td a {
-      color: lighten($text-color, 25%) !important;
-      text-decoration: none !important;
-    }
+    
+    
+    // Images
+    
     img {
-      max-width:100% !important;
-      height:auto !important;
+      max-width: 100% !important;
+      height: auto !important;
     }
+    
+    
+    // Scaffolding
+    
     table {
-      height:auto;
+      height: auto;
     }
     #header,
     #preheader,
     #footer,
     .innerContent,
     .innerContent table {
-      width:100% !important;
+      width: 100% !important;
     }
     .innerContent {
-      border-width:0 0 1px 0 !important;
+      border-width: 0 0 1px 0 !important;
       
       .padless {
           padding: 0 !important;
@@ -57,9 +63,16 @@ MOBILE TARGETING
     #preheader,
     #footer {
       td {
-        padding-left:15px;
-        padding-right:15px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
       }
+    }
+    
+    
+    // Grid
+    
+    .row-clear {
+      height:0 !important;
     }
     .innerContent {
         .column33 {
@@ -78,74 +91,27 @@ MOBILE TARGETING
             width: 6% !important;
         }
     }
-    .row-clear {
-      height:0 !important;
-    }
-    .ads .row-clear {
-      height:50px !important;
-    }
-    .section-header {
-      padding-left:15px !important;
-    }
-    .well {
-      border-left: none;
-      border-right: none;
-      margin-bottom:15px;
-      margin-left:-15px;
-      margin-right:-15px;
-    }
-    .title {
-      font-weight: floor($font-size-base * 1.3);
-    }
+    
+    
+    // Type
     .more {
       font-size: $font-size-base;
       padding-left:0 !important;
       padding-right:0 !important;
     }
-    .more-news,
-    .events {
-      padding-left:15px !important;
-    }
-    .sidebar-items {
-      padding-bottom:25px !important;
-    }
-    .sidebar-item,
-    .sidebar-header,
-    .sidebar-more {
-      -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-              box-sizing: border-box;
-      padding-left:15px;
-      padding-bottom:15px;
-      padding-top:0;
-    }
-    .sidebar-item {
-      float:left;
-      max-width: 50% !important;
-      vertical-align: top;
-    }
-    .sidebar-item:nth-of-type(3n+1),
-    .sidebar-header,
-    .sidebar-more {
-      clear:both;
-    }
-    .footer-nav,
-    .column-sidebar,
-    .mobile-full {
-      colgroup {
-        display: none;
-      }
-      tbody,
-      tr,
-      td {
-        display: block !important;
-        width: 100% !important;
-      }
-    }
   }
 }
+
+
+// 
+//  Columns to full width
+//  ---------------------------------
+
 @media only screen and (max-width: 479px) {
   body[yahoo] {
+    
+    // Scaffolding
+    
     &, 
     #backgroundTable,
     #header,
@@ -165,6 +131,41 @@ MOBILE TARGETING
         box-sizing: border-box;
       }
     }
+    
+    
+    // Grid
+    
+    .innerContent {
+      .column33, 
+      .column50, 
+      .column66 {
+        width: 100% !important;
+      }
+    }
+    .spacer,
+    .spacer50,
+    .spacer33 {
+      display: none !important;
+    }
+    td[width="30"],
+    .spacer30 {
+      width:15px !important;
+    }
+    
+    
+    // Header
+    
+    .header-subheader {
+      display: block !important;
+      padding-top: 0px !important;
+      padding-bottom: 16px !important;
+      text-align: left !important;
+      clear:both;
+    }
+    
+    
+    // Blocks
+    
     .block {
       border-width: 0 !important;
       margin-bottom: 40px !important;
@@ -179,6 +180,10 @@ MOBILE TARGETING
         }
       }
     }
+    
+    
+    // Events
+    
     .moreEvents {
       img {
         width: 100% !important;
@@ -192,36 +197,17 @@ MOBILE TARGETING
         font-size: $font-size-base !important;
       }
     }
-    .subheader {
-      display: block !important;
-      padding-top: 0px !important;
-      padding-bottom: 16px !important;
-      text-align: left !important;
-      clear:both;
-    }
-    .gutter {
-      height:0 !important;
-      display: none !important;
-    }
     .date,
     .meta,
     .location {
       display: block !important;
       padding-right: 0 !important;
     }
-    .spacer,
-    .spacer50,
-    .spacer33 {
+    
+    // Utilities
+    .gutter {
+      height:0 !important;
       display: none !important;
-    }
-    .innerContent {
-      .column33, .column50, .column66 {
-        width: 100% !important;
-      }
-    }
-    td[width="30"],
-    .spacer30 {
-      width:15px !important;
     }
   }
 }

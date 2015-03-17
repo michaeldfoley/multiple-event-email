@@ -1,0 +1,78 @@
+// 
+//  Events
+//  ---------------------------------
+
+// Titles
+
+.title,
+.title-lg, 
+.title-sm {
+  &, a {
+    display: block;
+  }
+}
+.title-lg,
+.title-sm {
+  font-weight: 200;
+  padding-bottom: 7px;
+}
+.title-lg {
+  font-size: floor($font-size-base * 1.7);
+  line-height: $line-height-large;
+  padding-top: 10px;
+}
+.title-sm {
+  font-size: $font-size-base;
+  padding-top:7px;
+}
+.title,
+.subtitle {
+  font-weight: $font-weight-base;
+}
+.title {
+  font-size: floor($font-size-base * 1.2);
+  padding-top:7px;
+  padding-bottom:3px;
+  line-height: 24px;
+  
+  &:first-child {
+      padding-top:0;
+  }
+}
+.subtitle {
+  color:lighten($text-color,15%);
+  padding-top:0;
+}
+
+
+// Meta data
+
+.date,
+.meta,
+.location {
+  font-size:floor($font-size-base * .95);
+  display: inline-block;
+  padding-bottom: 0;
+  padding-right:60px;
+  
+  + .title {
+    padding-top:3px;
+    padding-bottom:15px;
+  }
+}
+.date {
+  font-weight: bold;
+}
+.meta {
+    padding-top:12px;
+    padding-bottom:12px;
+}
+
+
+// Event types
+
+.moreEvents {
+  img {
+    width: 265px;
+  }
+}

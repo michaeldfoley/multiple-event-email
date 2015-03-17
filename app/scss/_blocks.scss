@@ -1,0 +1,23 @@
+// 
+//  Content blocks
+//  ---------------------------------
+
+.block {
+  background: $content-background;
+  border:1px solid $base-border;
+  
+  td {
+    font-size: $font-size-base;
+    color: $text-color;
+  }
+  img {
+    display:block;  
+    padding-bottom:15px;
+  }
+  .date,
+  .meta,
+  .location {
+    display: block;
+    padding-right: 0;
+  }
+}

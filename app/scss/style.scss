@@ -1,5 +1,17 @@
 @import "variables";
-@import "base";
-@import "main";
-@import "custom";
+
+@import "reset";
+@import "scaffolding";
+@import "grid";
+
+@import "type";
+@import "btn";
+
+@import "header";
+@import "footer";
+@import "blocks";
+@import "events";
+
+@import "utilities";
+
 @import "media-queries";
