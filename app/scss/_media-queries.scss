@@ -146,46 +146,68 @@ MOBILE TARGETING
 }
 @media only screen and (max-width: 479px) {
   body[yahoo] {
+    &, 
+    #backgroundTable,
+    #header,
+    #preheader,
+    #footer {
+      background: #ffffff !important;
+    }
     .innerContent {
-        colgroup {
-            display: none;
+      colgroup {
+        display: none;
+      }
+      tbody,
+      tr,
+      td {
+        display: block !important;
+        width: 100% !important;
+        box-sizing: border-box;
+      }
+    }
+    .block {
+      border-width: 0 !important;
+      margin-bottom: 40px !important;
+      
+      td {
+        padding-left: 15px;
+        padding-right: 15px;
+          
+        &[colspan="3"] {
+          padding-left: 0;
+          padding-right: 0;
         }
-        tbody,
-        tr,
-        td {
-            display: block !important;
-            width: 100% !important;
-            box-sizing: border-box;
-        }
-        td {
-            padding-left: 15px;
-            padding-right: 15px;
-            
-            &[colspan="3"] {
-                padding-left: 0;
-                padding-right: 0;
-            }
-        }
+      }
     }
     .moreEvents {
-        margin-bottom: 60px !important;
-        img {
-            width: 100%;
-            padding-bottom:15px;
-        }
-        .btn-sm {
-            padding-top:7px;
-            padding-bottom:7px;
-            padding-left:30px;
-            padding-right:30px;
-            font-size: $font-size-base;
-        }
+      img {
+        width: 100% !important;
+        padding-bottom:15px !important;
+      }
+      .btn-sm {
+        padding-top:7px !important;
+        padding-bottom:7px !important;
+        padding-left:30px !important;
+        padding-right:30px !important;
+        font-size: $font-size-base !important;
+      }
+    }
+    .subheader {
+      display: block !important;
+      padding-top: 0px !important;
+      padding-bottom: 16px !important;
+      text-align: left !important;
+      clear:both;
+    }
+    .gutter {
+      height:0 !important;
+      display: none !important;
     }
     .date,
     .meta,
     .location {
-        display: block;
-        padding-right: 0;
+      display: block !important;
+      padding-right: 0 !important;
     }
     .spacer,
     .spacer50,
@@ -193,9 +215,9 @@ MOBILE TARGETING
       display: none !important;
     }
     .innerContent {
-        .column33, .column50, .column66 {
-            width: 100% !important;
-        }
+      .column33, .column50, .column66 {
+        width: 100% !important;
+      }
     }
     td[width="30"],
     .spacer30 {
@@ -203,27 +225,3 @@ MOBILE TARGETING
     }
   }
 }
-@media only screen and (max-width: 375px) {
-  body[yahoo] {
-    .column33,
-    .column50 {
-      img {
-        float: none !important;
-        width: auto;
-        max-width: 100%;
-        min-width: 0 !important;
-      }
-    }
-  }
-}
-@media only screen and (min-width: 358px) {
-  body[yahoo] {
-    .column60, .column66 {
-      img {
-        margin-left:auto;
-        margin-right:auto;
-      }
-    }
-  }
-}
-
